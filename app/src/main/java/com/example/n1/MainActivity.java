@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Parcelable;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -35,6 +36,8 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, GradesActivity.class);
         intent.putExtra(EXTRA_NAME, nameValue);
         startActivity(intent);
+
     }
+
 
 }
